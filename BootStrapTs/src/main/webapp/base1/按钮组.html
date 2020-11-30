@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../boot/css/bootstrap.min.css" rel="stylesheet">
+    <!--引入bootstrap的核心js-->
+    <script src="../boot/js/jquery-3.5.1.min.js"></script>
+    <script src="../boot/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="btn-group" role="group" >
+    <button type="button" class="btn btn-primary">Left</button>
+    <button type="button" class="btn btn-success">Middle</button>
+    <button type="button" class="btn btn-info">Right</button>
+</div>
+<!--按钮工具栏-->
+
+<div class="btn-toolbar">
+    <div class="btn-group">
+        <button class="btn btn-default">添加</button>
+        <button class="btn btn-default">删除</button>
+        <button class="btn btn-default">修改</button>
+        <button class="btn btn-default">查询</button>
+        <button type="button" class="btn btn-default" data-toggle="dropdown"  >
+            选择课程 <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" >
+            <li><a href="">Spring boot</a></li>
+            <li><a href="">Spring MVC</a></li>
+            <li><a href="">SPring Colud</a></li>
+            <li><a href="">sss ss</a></li>
+        </ul>
+    </div>
+    </div>
+<!--垂直排列-->
+<div class="btn-toolbar">
+    <div class="btn-group-vertical">
+        <button class="btn btn-default">添加</button>
+        <button class="btn btn-default">删除</button>
+        <button class="btn btn-default">修改</button>
+        <button class="btn btn-default">查询</button>
+        <button type="button" class="btn btn-default" data-toggle="dropdown"  >
+            选择课程 <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" >
+            <li><a href="">Spring boot</a></li>
+            <li><a href="">Spring MVC</a></li>
+            <li><a href="">SPring Colud</a></li>
+            <li><a href="">sss ss</a></li>
+        </ul>
+    </div>
+</div>
+<!--按钮组自适应-->
+<br>
+
+    <!--btn-group-justified自适应-->
+    <div class="btn-group btn-group-justified col-sm-12">
+        <div class="btn-group">
+            <button class="btn btn-default">添加</button>
+        </div>
+        <div class="btn-group">
+             <button class="btn btn-default">查询</button>        </div>
+    </div>
+        <div class="btn-group">
+            <button class="btn btn-default">删除</button>
+            <button class="btn btn-default">修改</button>
+        </div>
+    </div>
+<br>
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group">
+      <button class="btn btn-default">添加</button>
+      <button class="btn btn-default">删除</button>
+  </div>
+</div>
+<br>
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">Left</button>
+    </div>
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">Middle</button>
+    </div>
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">Right</button>
+    </div>
+</div>
+</body>
+</html>
